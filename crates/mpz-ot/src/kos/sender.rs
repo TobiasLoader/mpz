@@ -21,7 +21,7 @@ use rand::{
 };
 use rand_core::SeedableRng;
 use serio::{stream::IoStreamExt as _, SinkExt as _};
-use utils_aio::non_blocking_backend::{Backend, NonBlockingBackend};
+use tlsn_utils_aio::non_blocking_backend::{Backend, NonBlockingBackend};
 
 use crate::{
     kos::SenderError, CommittedOTReceiver, CommittedOTSender, OTError, OTReceiver, OTSender,

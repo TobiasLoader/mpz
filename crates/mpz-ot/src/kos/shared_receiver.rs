@@ -7,7 +7,7 @@ use mpz_core::Block;
 use mpz_ot_core::{kos::msgs::SenderPayload, OTReceiverOutput, ROTReceiverOutput, TransferId};
 use rand::distributions::{Distribution, Standard};
 use serio::{stream::IoStreamExt, SinkExt};
-use utils_aio::non_blocking_backend::{Backend, NonBlockingBackend};
+use tlsn_utils_aio::non_blocking_backend::{Backend, NonBlockingBackend};
 
 use crate::{
     kos::{Receiver, ReceiverError},

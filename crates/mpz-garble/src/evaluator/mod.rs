@@ -22,7 +22,7 @@ use mpz_garble_core::{
 };
 use mpz_ot::TransferId;
 use serio::stream::IoStreamExt;
-use utils::iter::FilterDrain;
+use tlsn_utils::filter_drain::FilterDrain;
 
 use crate::{
     memory::EncodingMemory,

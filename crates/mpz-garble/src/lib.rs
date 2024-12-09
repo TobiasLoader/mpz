@@ -36,7 +36,7 @@ pub enum VmError {
     #[error(transparent)]
     IOError(#[from] std::io::Error),
     #[error(transparent)]
-    MuxerError(#[from] utils_aio::mux::MuxerError),
+    MuxerError(#[from] tlsn_utils_aio::mux::MuxerError),
     #[error(transparent)]
     ProtocolError(#[from] Box<dyn std::error::Error + Send + Sync>),
     #[error(transparent)]
