@@ -9,7 +9,7 @@ use mpz_core::Block;
 use mpz_ot_core::chou_orlandi::{sender_state as state, Sender as SenderCore, SenderConfig};
 use rand::{thread_rng, Rng};
 use serio::{stream::IoStreamExt, SinkExt as _};
-use utils_aio::non_blocking_backend::{Backend, NonBlockingBackend};
+use tlsn_utils_aio::non_blocking_backend::{Backend, NonBlockingBackend};
 
 use enum_try_as_inner::EnumTryAsInner;
 

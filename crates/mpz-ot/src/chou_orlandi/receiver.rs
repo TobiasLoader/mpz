@@ -12,7 +12,7 @@ use mpz_ot_core::chou_orlandi::{
 use enum_try_as_inner::EnumTryAsInner;
 use rand::{thread_rng, Rng};
 use serio::{stream::IoStreamExt as _, SinkExt as _};
-use utils_aio::non_blocking_backend::{Backend, NonBlockingBackend};
+use tlsn_utils_aio::non_blocking_backend::{Backend, NonBlockingBackend};
 
 use crate::{CommittedOTReceiver, OTError, OTReceiver, OTReceiverOutput, OTSetup};
 
